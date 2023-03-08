@@ -1,8 +1,9 @@
 package com.example.penjualan.activity.login
 
+import com.example.penjualan.model.User
 import com.google.gson.annotations.SerializedName
 
-data class Response(
+data class ResultLogin(
 
 	@field:SerializedName("message")
 	val message: String? = null,
