@@ -14,7 +14,7 @@ data class User(
     var hp:String?=null,
 
     @field:SerializedName("id_user")
-    var id_user:String?=null,
+    var id_user:Int?=null,
 
     @field:SerializedName("create_date")
     var create_date:String?=null,
